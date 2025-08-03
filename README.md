@@ -15,6 +15,7 @@ This project implements a **modular and production-ready RAG (Retrieval-Augmente
 - **Framework:** FastAPI
 - **RAG Toolkit:** LangChain, LangGraph
 - **Vector Store:** Pinecone
+- **LLM**: ChatGroq (`llama3-8b-8192`)
 - **Embedding Models:** `all-MiniLM-L6-v2`, `multi-qa-MiniLM-L6-cos-v1`
 - **Chunking Strategies:** Recursive, Character Text Split
 - **Database:** PostgreSQL (via SQLAlchemy)
