@@ -1,4 +1,3 @@
-# app/vectorstore/chunking.py
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter, CharacterTextSplitter
 from langchain_core.documents import Document

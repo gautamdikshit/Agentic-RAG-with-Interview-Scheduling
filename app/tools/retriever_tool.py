@@ -1,30 +1,8 @@
-# app/tools/retriever_tool.py
 from langchain_core.tools import tool
 from app.deps import retriever
 import time 
-
-
 from app.database import SessionLocal
 from app.models.query_metadata import QueryMetadata
-
-# @tool
-# def retriever_tool(query: str) -> str:
-#     """
-#     This tool searches and returns the information from the given pdf source.
-#     """
-
-#     docs = retriever.invoke(query)
-
-#     if not docs:
-#         return "I found no relevant information in the provided pdf."
-    
-#     results = []
-
-#     for i, doc in enumerate(docs):
-#         results.append(f"Document {i+1}:\n {doc.page_content}")
-
-#     return "\n\n".join(results)
-
 
 @tool
 def retriever_tool(query: str) -> str:

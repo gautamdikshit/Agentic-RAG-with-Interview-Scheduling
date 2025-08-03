@@ -1,4 +1,3 @@
-# app/init_db.py
 from app.database import Base, engine
 from app.models.booking import Booking
 from app.models.metadata import Metadata

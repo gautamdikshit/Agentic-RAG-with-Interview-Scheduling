@@ -1,4 +1,3 @@
-# app/deps.py
 from langchain_huggingface import HuggingFaceEmbeddings
 from pinecone import Pinecone
 from app.config import PINECONE_API_KEY, INDEX_NAME

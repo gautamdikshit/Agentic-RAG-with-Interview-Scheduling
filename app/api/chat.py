@@ -1,4 +1,3 @@
-# app/api/chat.py
 from fastapi import APIRouter, Body
 from app.langgraph_workflow.workflow import graph
 from app.config import REDIS_URL

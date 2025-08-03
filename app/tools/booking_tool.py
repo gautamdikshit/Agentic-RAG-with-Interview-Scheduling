@@ -1,4 +1,3 @@
-# app/tools/booking_tool.py
 import json, os, re, smtplib
 from email.mime.text import MIMEText
 from langchain_core.tools import tool
@@ -19,15 +18,6 @@ def load_bookings() -> list:
             return json.load(f)
         except json.JSONDecodeError:
             return []
-        
-
-# # Function to save booking details locally 
-# def save_booking(entry: Dict):
-
-#     bookings = load_bookings()
-#     bookings.append(entry)
-#     with open(BOOKING_FILE, "w", encoding="utf-8") as f:
-#         json.dump(bookings, f, indent=2, ensure_ascii=False)
 
 # Function to save to PostgreSQL Database 
 def save_booking(entry: Dict):

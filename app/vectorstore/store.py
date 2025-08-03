@@ -1,4 +1,3 @@
-# app/vectorstore/store.py
 from langchain_community.vectorstores import Pinecone as PineconeStore
 from app.config import INDEX_NAME, PINECONE_ENVIRONMENT
 from app.deps import embeddings, pc

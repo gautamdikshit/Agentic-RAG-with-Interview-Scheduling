@@ -1,4 +1,3 @@
-# app/langgraph_workflow/model_config.py
 from langchain_groq import ChatGroq
 
 SYSTEM_PROMPT = """
