@@ -21,7 +21,7 @@ async def upload_file(
         f.write(await file.read())
 
     try:
-        documents = extract_and_chunk_text(temp_path, chunking_method)  # currently supports only recursive
+        documents = extract_and_chunk_text(temp_path, chunking_method) #currently supports only recursive and character text split
         store_documents(documents)
 
         # Save metadata in PostgreSQL
