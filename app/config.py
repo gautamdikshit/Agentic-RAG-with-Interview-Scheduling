@@ -16,3 +16,5 @@ SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 OWNER_EMAIL = os.getenv("OWNER_EMAIL")
 
 REDIS_URL = os.getenv("REDIS_URL")
+
+LANGCHAIN_API_KEY = os.getenv("LANGCHAIN_API_KEY")
